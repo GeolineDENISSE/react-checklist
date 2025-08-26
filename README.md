@@ -188,7 +188,38 @@ function App() {
         `useState`).
     -   Le gain de temps dans la rédaction du code répétitif.
 
-------------------------------------------------------------------------
+-------------------------------------------------------------------
+
+## 4. Installation du projet depuis GitHub
+
+Pour récupérer et lancer ce projet sur votre machine :
+
+1.  Cloner le dépôt :
+
+    ``` bash
+    git clone https://github.com/votre-utilisateur/votre-repo.git
+    cd votre-repo
+    ```
+
+2.  Installer les dépendances (backend et frontend) :
+
+    ``` bash
+    npm install
+    ```
+
+3.  Lancer l'application en mode développement :
+
+    ``` bash
+    npm run dev
+    ```
+
+4.  Ouvrir l'URL indiquée dans le terminal (souvent
+    <http://localhost:5173>).
+
+⚠️ N'oubliez pas de créer un fichier `.env` pour la partie Node.js si
+vous souhaitez tester le serveur côté backend.
+
+-----------------------------------------------------------------------------------
 
 ## 🚀 Conclusion
 
